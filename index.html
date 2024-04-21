@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-image: linear-gradient(to right, #f7cace, #e0c3fc);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 15px;
+            margin: 0 5px;
+        }
+
+        .nav a:hover {
+            background-color: #f0f0f0;
+        }
+
+        .search-btn {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .main {
+            padding: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .product {
+            width: calc(33% - 50px);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .product h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .details {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .details li {
+            margin-bottom: 5px;
+        }
+
+        .buy-now {
+            background-color: #ffa500;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eee;
+        }
+
+        .footer p {
+            color: #666;
+            margin: 0;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Amazon</h1>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <button class="search-btn">Search</button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="product">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81+jSymTmL+.AC_SX300_SY300.jpg" alt="Echo Dot">
+            <h2>Echo Dot (4th Gen) - Smart speaker with Alexa</h2>
+            <p>Enjoy rich, clear sound that
